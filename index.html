@@ -7,61 +7,83 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
+      <!-- the burger and cps logo grouped together -->
       <div class="first-header-group">
         <div class="icons burger-icon">
           <img src="./images/Menu icon.png" alt="burger-icon" />
         </div>
-        <div class="logo">
+        <div class="divider one"></div>
+        <div class="icons logo">
           <img src="./images/Logo Group.png" alt="cps-logo" />
         </div>
       </div>
+      <!-- contact, chat and profile view grouped together -->
+      <div class="second-third-header-group">
+        <div class="second-header-group">
+          <div class="icons call-icon">
+            <img src="./images/Call Icon Container.png" alt="call-icon" />
+          </div>
+          <div class="icons chat-icon">
+            <img src="./images/Chat Icon Container.png" alt="chat-icon" />
+          </div>
+          <div class="icons profile-icon">
+            <img src="./images/Profile Icon Container.png" alt="profile-icon" />
+          </div>
+          <div class="divider two"></div>
+        </div>
 
-      <div class="second-header-group">
-        <div class="icons call-icon">
-          <img src="./images/Call Icon Container.png" alt="call-icon" />
-        </div>
-        <div class="icons chat-icon">
-          <img src="./images/Chat Icon Container.png" alt="chat-icon" />
-        </div>
-        <div class="icons profile-icon">
-          <img src="./images/Profile Icon Container.png" alt="profile-icon" />
-        </div>
-      </div>
-
-      <div class="third-header-group">
-        <div class="icons repair-icon">
-          <img src="./images/Repair Icon Container.png" alt="repair-icon" />
-        </div>
-        <div class="icons check-status-icon">
-          <img
-            src="./images/Check Status Icon Container.png"
-            alt="icons check-status-icon"
-          />
+        <!-- repair and check status grouped together -->
+        <div class="third-header-group">
+          <div class="icons repair-icon">
+            <img src="./images/Repair Icon Container.png" alt="repair-icon" />
+          </div>
+          <div class="icons check-status-icon">
+            <img
+              src="./images/Check Status Icon Container.png"
+              alt="icons check-status-icon"
+            />
+          </div>
         </div>
       </div>
     </header>
     <main>
-      <h1>Services and Support</h1>
-      <div class="side-menu-buttons">
-        <div class="side-menu-buttons-1">
-          <button type="button">Devices we repair</button>
-          <button>Additional services</button>
-        </div>
-        <div class="side-menu-buttons-2">
-          <button>Services prices</button>
-          <button>Addresses of service centres</button>
-          <button>Speical prices</button>
+      <div class="large-screen-header">
+        <h1>Services and Support</h1>
+        <div class="large-screen-header-nav">
+          <div>
+            <p>Submit a request</p>
+            <img src="./images/Repair Icon Container.png" alt="repair-icon" />
+          </div>
+          <div>
+            <p>Repair status</p>
+            <img
+              src="./images/Check Status Icon Container.png"
+              alt="repair-icon"
+            />
+          </div>
         </div>
       </div>
+      <div class="side-menu-links">
+        <a class="links devices" href="#">Devices we repair</a>
+        <a class="links additional" href="#">Additional services</a>
+        <a class="links services" href="#">Services prices</a>
+        <a class="links addresses" href="#">Addresses of service centres</a>
+        <a class="links special" href="#">Special prices</a>
+        <a class="links review" href="#">Reviews</a>
+      </div>
       <article>
-        <p>
-          We are an authorised service centre for Dell equipment repairs. Only
-          with us can you repair your Dell laptop with the official
-          manufacturer's warranty. We have been successfully operating since
-          1992 and have earned a reputation as a reliable partner,
-        </p>
-        <div class="readmore-container">
+        <div class="text-area">
+          <p>
+            We are an authorised service centre for Dell equipment repairs. Only
+            with us can you repair your Dell laptop with the official
+            manufacturer's warranty. <br /><br />
+            <br />We have been successfully operating since 1992 and have earned
+            a reputation as a reliable partner, as evidenced by our large number
+            of loyal customers. We take pride in the fact that clients come to
+            us through recommendations and, in turn, recommend us to their
+            family and friends.
+          </p>
           <div class="readmore-cta">
             <img
               class="readmore-expand-icon"
@@ -71,10 +93,11 @@
             <p class="readmore-cta-button">Read More</p>
           </div>
         </div>
+
+        <div class="image-container">
+          <img src="./images/Image Container.png" alt="cps-logo-mockup" />
+        </div>
       </article>
-      <div class="image-container">
-        <img src="./images/Image Container.png" alt="cps-logo-mockup" />
-      </div>
     </main>
   </body>
 </html>
