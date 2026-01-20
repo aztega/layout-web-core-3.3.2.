@@ -1,3 +1,8 @@
+@font-face {
+  font-family: TT Lakes Neue Trial Regular;
+  src: url(TT\ Lakes\ Neue\ Trial\ Regular.ttf)
+}
+
 * {
   margin: 0px;
   border: 0px;
@@ -11,7 +16,7 @@ body {
 
 .container {
   max-width: 1120px;
-  margin: 30px auto auto auto;
+  margin: auto;
 }
 
 header {
@@ -22,7 +27,7 @@ header {
   background-color: #ffffff;
   padding: 16px;
   border-bottom: solid 1px #d9fff5;
-}
+} 
 
 header .icons {
   width: 40px;
@@ -59,6 +64,7 @@ header .icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 
 .large-screen-header-nav div {
@@ -74,7 +80,7 @@ header .icons {
 
 h1 {
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 00;
   margin-top: 8px;
 }
 
@@ -93,6 +99,7 @@ h1::before {
   display: flex;
   flex-wrap: wrap;
   overflow-x: auto;
+  gap: 10px;
 }
 
 .side-menu-links a {
@@ -106,6 +113,7 @@ h1::before {
   padding: 5px;
   padding: 5px;
   background-color: #f8f8f8;
+  font-weight: 500;
 }
 
 .side-menu-links a:hover {
@@ -118,6 +126,7 @@ h1::before {
   border-radius: 6px;
   padding: 5px;
   background-color: #ffff;
+  font-weight: 500;
 }
 
 .side-menu-links::-webkit-scrollbar {
@@ -134,6 +143,7 @@ article p {
   flex: 1;
   margin: 16px;
   font-size: 15px;
+  font-weight: 400;
   text-align: left;
   line-height: 20px;
   max-width: fit-content;
@@ -163,7 +173,7 @@ article p {
 
   .container {
     max-width: 768px;
-    margin: 30px auto auto auto;
+    margin: auto;
   }
 
   .large-screen-header-nav {
@@ -264,6 +274,7 @@ article p {
     padding: 5px;
     padding: 5px;
     background-color: #f8f8f8;
+    font-weight: 500;
   }
 
   .side-menu-links a:hover {
@@ -276,6 +287,7 @@ article p {
     border-radius: 6px;
     padding: 5px;
     background-color: #ffff;
+    font-weight: 500;
   }
 
   .side-menu-links::-webkit-scrollbar {
@@ -294,6 +306,7 @@ article p {
     text-align: left;
     line-height: 20px;
     max-width: fit-content;
+    font-weight: 400;
   }
 
   .readmore-cta {
@@ -320,7 +333,7 @@ article p {
 
   .container {
     max-width: 500px;
-    margin: 30px auto auto auto;
+    margin:auto;
   }
 
   .second-header-group .call-icon,
@@ -394,6 +407,7 @@ article p {
     padding: 5px;
     padding: 5px;
     background-color: #f8f8f8;
+    font-weight: 500;
   }
 
   .side-menu-links a:hover {
@@ -406,6 +420,7 @@ article p {
     border-radius: 6px;
     padding: 5px;
     background-color: #ffff;
+    font-weight: 500;
   }
 
   .side-menu-links::-webkit-scrollbar {
@@ -425,6 +440,7 @@ article p {
     text-align: left;
     line-height: 20px;
     max-width: fit-content;
+    font-size: 400;
   }
 
   .readmore-cta {
